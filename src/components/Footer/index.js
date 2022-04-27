@@ -13,7 +13,7 @@ import {
     SocialMediaWrap,
     SocialLogo,
     WebsiteRights
-} from './FooterComponents';
+} from './FooterElements';
 
 const Footer = () => {
 

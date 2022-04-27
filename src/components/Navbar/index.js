@@ -3,7 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
 
-import Logo from '../../images/logoBig.png';
+import Logo from '../../assets/images/Logo.png';
 
 import { 
     Nav,
@@ -15,7 +15,7 @@ import {
     NavLinks,
     NavBtn,
     NavBtnLink
-} from './NavbarComponents';
+} from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false);
