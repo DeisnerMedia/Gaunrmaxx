@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link as LinkR} from 'react-router-dom';
-import { Link as LinkS } from 'react-scroll';
+//import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
     background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
@@ -45,7 +45,7 @@ export const NavLogo = styled(LinkR)`
 export const MobileIcon = styled.div`
     display: none;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1241px) {
         display: flex;
         position: absolute;
         top: 0;
@@ -63,7 +63,7 @@ export const NavMenu = styled.ul`
     list-style: none;
     text-align: center;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1241px) {
         display: none;
     }
 `;
@@ -72,7 +72,7 @@ export const NavItem = styled.li`
     height: 80px;
 `;
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkR)`
     color: white;
     display: flex;
     align-items: center;
@@ -83,7 +83,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &:hover {
-        border-bottom: 4px solid #00ccff;
+        border-bottom: 4px solid red;
     }
 
     &.active {
@@ -96,7 +96,7 @@ export const NavBtn = styled.nav`
     align-items: center;
     margin-right: 10px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1241px) {
         display: none;
     }
 `;
@@ -105,7 +105,11 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 7px;
-    background: #01bf71;
+    background: linear-gradient(
+        108deg, 
+        rgba(255, 0, 0) 0%,
+        rgba(112, 2, 2) 100% 
+    );;
     color: white;
     white-space: nowrap;
     padding: 10px 20px;

@@ -42,7 +42,7 @@ const Navbar = ({ toggle }) => {
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
                         <NavLogo to='/' onClick={toggleHome}>
-                            <img alt="Deisner Media" src={Logo}/>
+                            <img alt="Gaunrmaxx" src={Logo}/>
                         </NavLogo>
 
 
@@ -53,38 +53,50 @@ const Navbar = ({ toggle }) => {
                         <NavMenu>
                             <NavItem>
                                 <NavLinks 
-                                to='about'
+                                to='/programm'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact='true'
                                 offset={-80}
                                 >
-                                About</NavLinks>
+                                Programm</NavLinks>
                             </NavItem>
 
                             <NavItem>
                                 <NavLinks 
-                                to='projects'
+                                to='/preise'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact='true'
                                 offset={-80}
                                 >
-                                Projects</NavLinks>
+                                Preise</NavLinks>
                             </NavItem>
 
                             <NavItem>
                                 <NavLinks 
-                                to='contact'
+                                to='/snacks'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact='true'
                                 offset={-80}
                                 >
-                                Contact</NavLinks>
+                                Snacks</NavLinks>
+                            </NavItem>
+
+                            <NavItem>
+                                <NavLinks 
+                                to='/öffnungszeiten'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                >
+                                Öffnungszeiten</NavLinks>
                             </NavItem>
                         </NavMenu>
 
