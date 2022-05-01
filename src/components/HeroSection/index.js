@@ -1,17 +1,9 @@
 import {React, useState} from 'react';
-import Image from '../../assets/images/Banner.jpg';
 import {Button2} from '../ButtonComponents';
-import {
-    Diashow,
-    HeroContainer,
-    HeroContent,
-    HeroPictures,
-    HeroBtnWrapper,
-    Play,
-    YinYang,
-    ArrowLeft,
-    ArrowRight
-} from './HeroElements';
+import { FaPlay, FaYinYang } from 'react-icons/fa';
+import './Hero.css';
+
+import Movies from './Movies';
 
 const HeroSection = () => {
 
@@ -23,30 +15,28 @@ const HeroSection = () => {
       
   return (
     <>
-        <HeroContainer id='home'>
-            <HeroPictures>
-                <ArrowLeft />
-                <Diashow src={Image} type='image' />
-                <ArrowRight />
-            </HeroPictures>
+        <div id='home'>
 
-            <HeroContent>
-                <HeroBtnWrapper>
+            <div className="HeroContent">
+                <div className='BtnWrapper'>
                         <Button2 to='/trailer'
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
-                            smooth={true}
+                            smooth='true'
                             duration={500}
-                            spy={true}
+                            spy='true'
                             exact='true'
                             offset={-80}
                         >
-                        {hover ? <YinYang /> : <Play />} Trailer
+                        {hover ? <FaYinYang id='yinYang' /> : <FaPlay id='faPlay' />} Trailer
                         </Button2>
-                </HeroBtnWrapper>
+                </div>
 
-            </HeroContent>
-        </HeroContainer>
+                <Movies />
+            </div>
+                
+        </div>
+        
     </>
   )
 }

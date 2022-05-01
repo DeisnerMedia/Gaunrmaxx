@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { React, useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
@@ -54,9 +54,9 @@ const Navbar = ({ toggle }) => {
                             <NavItem>
                                 <NavLinks 
                                 to='/programm'
-                                smooth={true}
+                                smooth='true'
                                 duration={500}
-                                spy={true}
+                                spy='true'
                                 exact='true'
                                 offset={-80}
                                 >
@@ -66,9 +66,9 @@ const Navbar = ({ toggle }) => {
                             <NavItem>
                                 <NavLinks 
                                 to='/preise'
-                                smooth={true}
+                                smooth='true'
                                 duration={500}
-                                spy={true}
+                                spy='true'
                                 exact='true'
                                 offset={-80}
                                 >
@@ -78,9 +78,9 @@ const Navbar = ({ toggle }) => {
                             <NavItem>
                                 <NavLinks 
                                 to='/snacks'
-                                smooth={true}
+                                smooth='true'
                                 duration={500}
-                                spy={true}
+                                spy='true'
                                 exact='true'
                                 offset={-80}
                                 >
@@ -89,10 +89,10 @@ const Navbar = ({ toggle }) => {
 
                             <NavItem>
                                 <NavLinks 
-                                to='/öffnungszeiten'
-                                smooth={true}
+                                to='/zeiten'
+                                smooth='true'
                                 duration={500}
-                                spy={true}
+                                spy='true'
                                 exact='true'
                                 offset={-80}
                                 >

@@ -1,0 +1,198 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.ContentContainer {
+    padding-top: 80px;
+    background: url('../../assets/images/Besuchsbedingungen/besuchsbedingungen.jpg');
+    background-size: cover;
+    height: 940px;
+}
+
+.CContainerWhite {
+    padding-top: 80px;
+    background-color: rgb(235, 235, 235);
+    height: 610vh;
+}
+
+
+#headTitle {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    width: 100%;
+    min-width: 460px;
+}
+
+.paragraph {
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.textarea {
+    width: 900px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1.5px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 1800px)
+{
+    .CContainerWhite {
+        height: 670vh;
+    }
+}
+
+@media screen and (max-width: 973px)
+{
+    .CContainerWhite {
+        height: 680vh;
+    }
+}
+
+@media screen and (max-width: 940px)
+{
+    .textarea {
+        max-width: 600px;
+    }
+
+    .CContainerWhite {
+        height: 890vh;
+    }
+}
+
+@media screen and (max-width: 798px)
+{
+    .CContainerWhite {
+        height: 892vh;
+    }
+}
+
+@media screen and (max-width: 672px)
+{
+    .CContainerWhite {
+        height: 900vh;
+    }
+}
+
+@media screen and (max-width: 650px)
+{
+    .textarea {
+        max-width: 500px;
+    }
+
+    .CContainerWhite {
+        min-height: 1055vh;
+    }
+}
+
+@media screen and (max-width: 636px)
+{
+
+    .CContainerWhite {
+        min-height: 1060vh;
+    }
+}
+
+@media screen and (max-width: 605px)
+{
+
+    .CContainerWhite {
+        min-height: 1065vh;
+    }
+}
+
+@media screen and (max-width: 554px)
+{
+
+    .CContainerWhite {
+        min-height: 1068vh;
+    }
+}
+
+@media screen and (max-width: 540px)
+{
+    .textarea {
+        max-width: 350px;
+    }
+
+    .CContainerWhite {
+        min-height: 1450vh;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .CContainerWhite {
+        min-height: 1455vh;
+    }
+}
+
+@media screen and (max-width: 448px)
+{
+    .CContainerWhite {
+        min-height: 1460vh;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .textarea {
+        max-width: 200px;
+    }
+}
+
+.einfuehrung {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 90px;
+    position: relative;
+}
+
+@media screen and (max-width: 459px)
+{
+    .einfuehrung {
+        font-size: 20px;
+    }
+}
+
+i {
+    color: red;
+}
+
+
+#goBack {
+    font-size: 50px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    cursor: pointer;
+    display: flex;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.bounce-5 {
+    animation-name: bounce-5;
+    animation-timing-function: ease;
+}
+@keyframes bounce-5 {
+    0%   { transform: scale(1,1) rotate(180deg)   translateY(0); }
+    10%  { transform: scale(1.1,.9) rotate(180deg) translateY(0); }
+    30%  { transform: scale(.9,1.1) rotate(180deg) translateY(60px); }
+    50%  { transform: scale(1,1)  rotate(180deg)  translateY(0); }
+    57%  { transform: scale(1,1)  rotate(180deg)  translateY(7px); }
+    64%  { transform: scale(1,1)  rotate(180deg)  translateY(0); }
+    100% { transform: scale(1,1)  rotate(180deg)  translateY(0); }
+}

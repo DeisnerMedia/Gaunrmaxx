@@ -49,7 +49,6 @@ const Footer = () => {
                     <FooterLinkItems>
                         <FooterLinkTitle>Specials</FooterLinkTitle>
                             <FooterLink to='/schule'>Schule</FooterLink>
-                            <FooterLink to='/familie'>Familie</FooterLink>
                             <FooterLink to='/news-artikel'>News & Artikel</FooterLink>
                     </FooterLinkItems>
                     
@@ -58,7 +57,6 @@ const Footer = () => {
                             <FooterLink to='/datenschutz'>Datenschutz</FooterLink>
                             <FooterLink to='/jugendschutz'>FSK & Jugendschutz</FooterLink>
                             <FooterLink to='/besuchsbedingungen'>Besuchsbedingungen</FooterLink>
-                            <FooterLink to='/barrierefreiheit'>Barrierefreiheit</FooterLink>
                     </FooterLinkItems>
 
                 </FooterLinksWrapper>
