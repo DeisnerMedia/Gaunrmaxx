@@ -9,6 +9,7 @@ const Movie = ({movie, selectMovie}) => {
                 }
                 <div className={"movie-infos"}>
                     <h5 className={"movie-title"}>{movie.title}</h5>
+                    <h5 className={"movie-description"}>{movie.alt}</h5>
                 </div>
             </div>
         </div>
