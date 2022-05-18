@@ -1,5 +1,5 @@
 export const homeObjOne = {
-    id: 'Information zu',
+    id: 'information',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -15,7 +15,7 @@ export const homeObjOne = {
 
 
 export const homeObjTwo = {
-    id: 'Altersnachweis',
+    id: 'altersnachweis',
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
@@ -24,23 +24,23 @@ export const homeObjTwo = {
     'Trage bitte immer einen Altersnachweis bei dir, um bei möglichen Kontrollen dein Alter nachweisen  zu können. Wenn du mit Kindern einen Film schauen möchtest, sollten auch sie einen entsprechenden Nachweis haben, auch wenn der Film als FSK 0 ausgeschrieben ist. Mehr dazu im folgenden Abschnitt „Besucher im Alter von 0 bis 2 Jahren“.',
     alt: 'Altersnachweis',
     dark: false,
-    primary: true,
+    primary: false,
     darkText: true
 }
 
 
 export const homeObjThree = {
     id: 'alter0-2',
-    lightBg: true,
+    lightBg: false,
     lightText: false,
     lightTextDesc: true,
     topLine: 'BESUCHER IM ALTER VON 0 BIS 2 JAHREN',
     description:
-    'Kino ist etwas für Groß und Klein! Allerdings liegen uns euer Schutz und die Gesundheit am Herzen. Deshalb ist der Besuch im CinemaxX für Kinder unter 3 Jahren nicht erlaubt.',
+    'Kino ist etwas für Groß und Klein! Allerdings liegen uns euer Schutz und die Gesundheit am Herzen. Deshalb ist der Besuch im GaunrmaXX für Kinder unter 3 Jahren nicht erlaubt.',
     alt: 'alter0-2',
     dark: false,
     primary: true,
-    darkText: true
+    darkText: false
 }
 
 export const homeObjfour = {
@@ -59,7 +59,7 @@ export const homeObjfour = {
 
 export const homeObjfive = {
     id: 'alter6-13',
-    lightBg: true,
+    lightBg: false,
     lightText: false,
     lightTextDesc: true,
     topLine: 'BESUCHER IM ALTER VON 6 BIS 13 JAHREN',
@@ -68,7 +68,7 @@ export const homeObjfive = {
     alt: 'alter6-13',
     dark: false,
     primary: true,
-    darkText: true
+    darkText: false
 }
 
 
@@ -88,7 +88,7 @@ export const homeObjsix = {
 
 export const homeObjseven= {
     id: 'alter16-17',
-    lightBg: true,
+    lightBg: false,
     lightText: false,
     lightTextDesc: true,
     topLine: 'BESUCHER IM ALTER VON 16 BIS 17 JAHREN',
@@ -97,7 +97,7 @@ export const homeObjseven= {
     alt: 'alter16-17',
     dark: false,
     primary: true,
-    darkText: true
+    darkText: false
 }
 
 export const homeObjeight= {
@@ -107,7 +107,7 @@ export const homeObjeight= {
     lightTextDesc: true,
     topLine: 'BESUCHER IM ALTER VON 16 BIS 17 JAHREN',
     description:
-    'Die Vergabe der FSK erfolgt nicht durch CinemaxX. Ein Fragezeichen setzen wir dann, wenn der Film (noch) nicht offiziell geprüft ist. Ohne diese Prüfung können wir nur Personen ab 18 Jahren Zutritt zu dem Film zu gewähren. Erreicht uns die Info zu einer Prüfung, ändern wir diese Daten in unserer Datenbank und veröffentlichen dies auf der Website.',
+    'Die Vergabe der FSK erfolgt nicht durch GaunrmaXX. Ein Fragezeichen setzen wir dann, wenn der Film (noch) nicht offiziell geprüft ist. Ohne diese Prüfung können wir nur Personen ab 18 Jahren Zutritt zu dem Film zu gewähren. Erreicht uns die Info zu einer Prüfung, ändern wir diese Daten in unserer Datenbank und veröffentlichen dies auf der Website.',
     alt: 'alter18+',
     dark: false,
     primary: true,

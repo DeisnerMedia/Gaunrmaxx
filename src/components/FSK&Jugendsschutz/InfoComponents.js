@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+    background: ${({lightBg}) => (lightBg ? '#dbdbdb' : '#010606')};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -55,7 +55,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.h2`
     color: red;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -76,10 +76,11 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-    max-width: 440px;
+    max-width: 700px;
     margin-bottom: 35px;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
     color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
 `;
 
