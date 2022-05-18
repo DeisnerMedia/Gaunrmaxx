@@ -14,6 +14,7 @@ import Oeffnungszeiten from './pages/Zeiten';
 
 import Kontakt from './pages/FooterNav/Kontakt';
 import Datenschutz from './pages/FooterNav/Datenschutz';
+import Jugendschutz from './pages/FooterNav/Jugendschutz';
 import Besuchsbedingungen from './pages/FooterNav/Besuchsbedingungen';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
           <Route exact path='/kontakt' element={<Kontakt />} />
           <Route exact path='/datenschutz' element={<Datenschutz />} />
+          <Route exact path='/jugendschutz' element={<Jugendschutz />} />
           <Route exact path='/besuchsbedingungen' element={<Besuchsbedingungen />} />
         </Routes>
       </Router>

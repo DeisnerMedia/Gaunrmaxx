@@ -3,7 +3,7 @@ import Jugendschutz from '../../components/FSK&Jugendsschutz';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjfour,homeObjfive, homeObjsix, homeObjseven, homeObjeight } from '../../components/FSK&Jugendsschutz/Data';
 import Footer from '../../components/Footer';
 
-const Datenschutz = () => {
+const JugendschutzSite = () => {
   return (
     <>
         <Header />
@@ -20,4 +20,4 @@ const Datenschutz = () => {
   )
 }
 
-export default Datenschutz
+export default JugendschutzSite
