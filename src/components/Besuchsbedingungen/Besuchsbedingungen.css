@@ -12,7 +12,8 @@
 .CContainerWhite {
     padding-top: 80px;
     background-color: rgb(235, 235, 235);
-    height: 610vh;
+    height: max-content;
+    padding-bottom: 50px;
 }
 
 
@@ -46,42 +47,11 @@
     margin-left: 30px;
 }
 
-@media screen and (max-width: 1800px)
-{
-    .CContainerWhite {
-        height: 670vh;
-    }
-}
-
-@media screen and (max-width: 973px)
-{
-    .CContainerWhite {
-        height: 680vh;
-    }
-}
 
 @media screen and (max-width: 940px)
 {
     .textarea {
         max-width: 600px;
-    }
-
-    .CContainerWhite {
-        height: 890vh;
-    }
-}
-
-@media screen and (max-width: 798px)
-{
-    .CContainerWhite {
-        height: 892vh;
-    }
-}
-
-@media screen and (max-width: 672px)
-{
-    .CContainerWhite {
-        height: 900vh;
     }
 }
 
@@ -90,58 +60,12 @@
     .textarea {
         max-width: 500px;
     }
-
-    .CContainerWhite {
-        min-height: 1055vh;
-    }
-}
-
-@media screen and (max-width: 636px)
-{
-
-    .CContainerWhite {
-        min-height: 1060vh;
-    }
-}
-
-@media screen and (max-width: 605px)
-{
-
-    .CContainerWhite {
-        min-height: 1065vh;
-    }
-}
-
-@media screen and (max-width: 554px)
-{
-
-    .CContainerWhite {
-        min-height: 1068vh;
-    }
 }
 
 @media screen and (max-width: 540px)
 {
     .textarea {
         max-width: 350px;
-    }
-
-    .CContainerWhite {
-        min-height: 1450vh;
-    }
-}
-
-@media screen and (max-width: 500px)
-{
-    .CContainerWhite {
-        min-height: 1455vh;
-    }
-}
-
-@media screen and (max-width: 448px)
-{
-    .CContainerWhite {
-        min-height: 1460vh;
     }
 }
 
