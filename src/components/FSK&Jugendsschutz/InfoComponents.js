@@ -14,13 +14,17 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height:940px;
+    height: 940px;
     width: auto;
     max-width: auto;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width: 530px) {
+        height: max-content;
+    }
 `;
 
 export const InfoRow = styled.div`
@@ -61,6 +65,10 @@ export const TopLine = styled.h2`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+
+    @media screen and (max-width: 480px) {
+        line-height: 30px;
+    }
 `;
 
 export const Heading = styled.h1`
