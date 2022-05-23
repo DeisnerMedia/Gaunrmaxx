@@ -49,7 +49,6 @@ const Footer = () => {
                     <FooterLinkItems>
                         <FooterLinkTitle>Specials</FooterLinkTitle>
                             <FooterLink to='/schule'>Schule</FooterLink>
-                            <FooterLink to='/news-artikel'>News & Artikel</FooterLink>
                     </FooterLinkItems>
                     
                     <FooterLinkItems>
