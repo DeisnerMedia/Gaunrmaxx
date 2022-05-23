@@ -1,0 +1,21 @@
+#tafel {
+    background: url('../../assets/images/Schule/TafelBild1.jpg');
+    background-size: cover;
+    height: 700px;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.content {
+    padding-top: 2vh;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: rgb(126, 125, 125);
+}
