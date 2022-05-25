@@ -87,6 +87,11 @@ export const SocialMediaWrap = styled.div`
 export const SocialLogo = styled.img`
     height: 40px;
     cursor: pointer;
+
+    &:hover {
+        opacity: 0.7;
+        transform: scale(0.9);
+    }
 `;
 
 export const WebsiteRights = styled.small`

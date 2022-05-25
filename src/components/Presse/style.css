@@ -1,0 +1,23 @@
+#nacho{
+    background: url('../../assets/images/presse/nachos.jpg');
+    height: 800px;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    padding-top: 240px;
+    font-size: 70px;
+    letter-spacing: 2px;
+    
+}
+
+.content {
+    padding-top: 5vh;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    
+}
