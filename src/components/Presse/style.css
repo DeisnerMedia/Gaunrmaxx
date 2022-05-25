@@ -1,9 +1,14 @@
+body{
+    background-color: black;
+}
+
 #nacho{
     background: url('../../assets/images/presse/nachos.jpg');
     height: 800px;
     background-size: cover;
     justify-content: center;
     text-align: center;
+    box-shadow: 1px 5px 10px 0px rgba(185, 142, 3, 0.616);
 }
 
 .title {
@@ -20,4 +25,24 @@
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
     
+}
+#presseM{
+    background-color: rgb(186, 197, 206);
+    margin-top: 20px;
+    height: 500px;
+    width: 900px;
+    left: 30%;
+    position: relative;
+    justify-content: center;
+    box-shadow: 1px 5px 10px 0px rgba(185, 142, 3, 0.616);
+
+
+    text-align: center;
+}
+
+.newsHead {
+    
+    color: black;
+    font-size: 40px;
+    padding-top: 25%;
 }
