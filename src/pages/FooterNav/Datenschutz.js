@@ -1,16 +1,26 @@
-import Header from '../../components/Navbar';
+import React, { useState } from 'react';
+import Navbar from '../../components/Navbar';
+import Sidebar from '../../components/Sidebar';
 import DatenschutzRef from '../../components/Datenschutz';
 import { homeObjOne, homeObjTwo, homeObjThree } from '../../components/Datenschutz/Data';
 import Footer from '../../components/Footer';
 
 const Datenschutz = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  } 
+
   return (
     <>
-        <Header />
-        <DatenschutzRef {...homeObjOne} />
-        <DatenschutzRef {...homeObjTwo} />
-        <DatenschutzRef {...homeObjThree} />
-        <Footer />
+      <Sidebar isOpen = { isOpen } toggle = { toggleSidebar }/>
+      <Navbar toggle = { toggleSidebar }/>
+      <DatenschutzRef {...homeObjOne} />
+      <DatenschutzRef {...homeObjTwo} />
+      <DatenschutzRef {...homeObjThree} />
+      <Footer />
     </>
   )
 }
