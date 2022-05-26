@@ -1,0 +1,11 @@
+#snack_pop_1 {
+    background: url('../../assets/images/Snacks/menue1.png') no-repeat;
+    height:1000px;
+    background-size: cover;
+}
+
+#snack_pop_2 {
+    background: url('../../assets/images/Snacks/menue2.png') no-repeat;
+    height:1000px;
+    background-size: cover;
+}
