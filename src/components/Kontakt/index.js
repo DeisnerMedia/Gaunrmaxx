@@ -1,12 +1,9 @@
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
-
 import './Kontakt.css';
 
 const Kontakt = () => {
   return (
     <>
-        <Navbar />
+
             <div id='kontaktContent'>
                 <h1 id='title'>Kontakt</h1>
                 <p class='inhalt'>Bei Fragen, Anregungen oder Kritik wende dich gerne über unser Kontaktformular an uns.</p>
@@ -41,7 +38,7 @@ const Kontakt = () => {
                     <button id='submit' type='submit'>Absenden</button>
                 </form>
             </div>
-        <Footer />
+
     </>
   )
 }
