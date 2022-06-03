@@ -1,0 +1,51 @@
+.newsletter-container {
+    background: url("../../assets/images/Newsletter/news.jpg");
+    height: 1080px;
+    background-size: cover;
+}
+
+#title-small {
+    font-size: 20px;
+    margin-top: 2vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content {
+    font-size: 15px;
+    color: #c4cccc;
+    margin-top: 3vh;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.newsletter-form {
+    margin-top: 14%;
+    justify-content: center;
+    text-align: center;
+}
+
+.news-input {
+    background-color: rgba(249,255,255,0.2);
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    border-style: none;
+    max-width: 460px;
+    width: 360px;
+    padding: 16px
+}
+
+.news-input ::placeholder {
+    color: #fff;
+}
+
+#registrieren {
+    max-width: 460px;
+    width: 360px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #05a5f5;
+    font-size: 20px;
+}
