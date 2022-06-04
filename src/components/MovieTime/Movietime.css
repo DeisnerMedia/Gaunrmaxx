@@ -1,0 +1,64 @@
+.movie-times {
+    margin-left: 340px;
+    margin-top: 270px;
+    position: absolute;
+}
+
+.movie-time {
+    width: 230px;
+    height: 180px;
+    background-color: rgba(255, 0, 0, 0.45);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px 0px rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    position: absolute;
+}
+
+.movie-time2 {
+    width: 230px;
+    height: 180px;
+    position: absolute;
+    margin-left: 250px;
+    background-color: rgba(255, 0, 0, 0.45);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px 0px rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    position: absolute;
+}
+
+.movie-time3 {
+    width: 230px;
+    height: 180px;
+    margin-left: 500px;
+    background-color: rgba(255, 0, 0, 0.45);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px 0px rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    position: absolute;
+}
+
+.movie-time:hover,
+.movie-time2:hover,
+.movie-time3:hover {
+    background-color: rgba(255, 0, 0, 0.68);
+}
+
+.kinoSaal {
+    font-size: 20px;
+    margin: 0px 0px 10px 10px;
+    padding-top: 10px;
+}
+
+.kinoZeit {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.kinoArt {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}

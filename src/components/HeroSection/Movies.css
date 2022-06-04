@@ -24,10 +24,6 @@
     transform: translateX(-5%);
 }
 
-.movieTitles {
-    
-}
-
 .container > .movieTitles {
     flex: 0 0 25%;
     max-width: 25%;

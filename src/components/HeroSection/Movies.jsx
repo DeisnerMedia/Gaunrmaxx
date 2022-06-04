@@ -31,10 +31,10 @@ function Movies() {
                 api_key: API_KEY
             }
         });
-    
-        console.log(data.results[0])
+
         setMovies(data.results)
         setMovie(data.results[0])
+
 
         if (data.results.length) {
             await fetchMovie(data.results[0].id)

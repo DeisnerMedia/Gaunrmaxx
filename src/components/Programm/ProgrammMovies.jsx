@@ -1,8 +1,7 @@
 import {React, useState, useEffect} from 'react';
 import axios from 'axios';
 import Movie from '../Movie/Movie';
-import './Movies.css';
-
+import MovieTime from "../MovieTime/MovieTimeComponent";
 
 function ProgrammMovies() {
 
@@ -72,21 +71,21 @@ function ProgrammMovies() {
             />
         ))
     )
+
   return (
     <>
         <div className='movie-position'>       
-            <h1 className='contentTitle'>Top Empfehlungen</h1>
+            <h1 className='contentTitle'>Programm</h1>
             
             <div className='movies'>
-                <div className='handle left-handle'></div>
                     {movies.length ?
                     <div>
                         <div className={"center-max-size container"}>
                             {renderMovies()}
+                            <MovieTime />
                         </div>
                     </div>
                     : 'Tut uns leid, es wurden keine Filme gefunden'}
-                <div className='handle right-handle'></div>
             </div>
         </div>
     </>
