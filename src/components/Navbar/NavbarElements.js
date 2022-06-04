@@ -1,17 +1,18 @@
 import styled from 'styled-components';
 import { Link as LinkR} from 'react-router-dom';
-//import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
     background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
     height: 80px;
     margin-top: -80px;
-    display: flex;
+    display: block;
+    display: -webkit-box;
     justify-content: center;
     font-size: 1rem;
     position: sticky;
     top: 0;
     z-index: 10;
+    max-width: 100%;
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease; 
@@ -58,8 +59,7 @@ export const MobileIcon = styled.div`
 `;
 
 export const NavMenu = styled.ul`
-    display: flex;
-    align-items: center;
+    display: -webkit-box;
     list-style: none;
     text-align: center;
 
@@ -75,12 +75,15 @@ export const NavItem = styled.li`
 export const NavLinks = styled(LinkR)`
     color: white;
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
     align-items: center;
     text-decoration: none;
     padding: 0 4rem;
     font-size: 1.2rem;
     height: 100%;
     cursor: pointer;
+    transition: 0.8s all ease;
 
     &:hover {
         border-bottom: 4px solid red;
