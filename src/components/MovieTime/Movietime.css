@@ -11,30 +11,31 @@
     border-radius: 10px;
     box-shadow: 0px 4px 6px 0px rgba(255, 255, 255, 0.25);
     cursor: pointer;
-    position: absolute;
+    position: relative;
 }
 
 .movie-time2 {
     width: 230px;
     height: 180px;
-    position: absolute;
     margin-left: 250px;
+    margin-top: -180px;
     background-color: rgba(255, 0, 0, 0.45);
     border-radius: 10px;
     box-shadow: 0px 4px 6px 0px rgba(255, 255, 255, 0.25);
     cursor: pointer;
-    position: absolute;
+    position: relative;
 }
 
 .movie-time3 {
     width: 230px;
     height: 180px;
     margin-left: 500px;
+    margin-top: -180px;
     background-color: rgba(255, 0, 0, 0.45);
     border-radius: 10px;
     box-shadow: 0px 4px 6px 0px rgba(255, 255, 255, 0.25);
     cursor: pointer;
-    position: absolute;
+    position: relative;
 }
 
 .movie-time:hover,
