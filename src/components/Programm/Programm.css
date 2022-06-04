@@ -1,6 +1,11 @@
+body {
+    background: rgb(16,16,16);
+    background: linear-gradient(180deg, rgba(16,16,16,1) 0%, rgba(80,26,26,1) 100%);
+}
+
 .movie-position {
     position: relative;
-    top: 180px;
+    top: 120px;
     padding-bottom: 150px;
 }
 
