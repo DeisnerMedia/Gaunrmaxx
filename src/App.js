@@ -20,6 +20,8 @@ import Schule from './pages/FooterNav/Schule';
 import Presse from './pages/FooterNav/Presse';
 import Newsletter from './pages/FooterNav/Newsletter';
 
+import LoginSystem from './pages/Anmelden';
+
 function App() {
   return (
       <Router>
@@ -29,6 +31,8 @@ function App() {
           <Route exact path='/preise' element={<Preise />} />
           <Route exact path='/snacks' element={<Snacks />} />
           <Route exact path='/zeiten' element={<Oeffnungszeiten />} />
+
+          <Route exact path='/signin' element={<LoginSystem />} />
 
           <Route exact path='/kontakt' element={<Kontakt />} />
           <Route exact path='/datenschutz' element={<Datenschutz />} />
