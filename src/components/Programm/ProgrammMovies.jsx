@@ -1,6 +1,6 @@
 import {React, useState, useEffect} from 'react';
 import axios from 'axios';
-import Movie from '../Movie/Movie';
+import Movie from './Movie';
 import MovieTime from "../MovieTime/MovieTimeComponent";
 
 function ProgrammMovies() {

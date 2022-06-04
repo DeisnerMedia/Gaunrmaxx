@@ -1,0 +1,53 @@
+.login-register-system {
+    height: 960px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(175,21,21,1) 100%);
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.37);
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+::placeholder,
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.login-register-system__login {
+    text-align: center;
+}
+
+.login-register-system__register {
+    display: none;
+    text-align: center;
+}
+
+#anmelden,
+#registrieren {
+    font-size: 20px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+}
+
+#anmelden:hover,
+#registrieren:hover {
+    background-color: rgb(4, 113, 238);
+}
