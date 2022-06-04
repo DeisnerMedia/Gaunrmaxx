@@ -20,9 +20,14 @@
 }
 
 .newsletter-form {
-    margin-top: 14%;
+    margin-top: 15%;
     justify-content: center;
     text-align: center;
+}
+@media screen and (max-width:980px) {
+    .newsletter-form {
+        margin-top: 30%;
+    }
 }
 
 .news-input {
