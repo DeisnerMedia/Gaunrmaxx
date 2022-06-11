@@ -19,6 +19,7 @@ import Besuchsbedingungen from './pages/FooterNav/Besuchsbedingungen';
 import Schule from './pages/FooterNav/Schule';
 import Presse from './pages/FooterNav/Presse';
 import Newsletter from './pages/FooterNav/Newsletter';
+import Karriere from './pages/FooterNav/Karriere';
 
 import LoginSystem from './pages/Anmelden';
 
@@ -41,6 +42,7 @@ function App() {
           <Route exact path='/schule' element={<Schule/>} />
           <Route exact path='/presse' element={<Presse/>} />
           <Route exact path='/newsletter' element={<Newsletter/>} />
+          <Route exact path='/karriere' element={<Karriere/>} />
         </Routes>
       </Router>
   );
