@@ -10,7 +10,7 @@ function Kontakt() {
 
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_gaunrmaxx', form.current, 'G01cd27xw3PTY-r6j')
+        emailjs.sendForm('service_ucgp9up', 'template_gaunrmaxx', form.current, 'G01cd27xw3PTY-r6j')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
