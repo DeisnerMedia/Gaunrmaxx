@@ -1,16 +1,34 @@
 import './Kontakt.css';
+import emailjs from 'emailjs-com';
+import React, {useRef} from 'react';
 
-const Kontakt = () => {
+function Kontakt() {
+
+    const form = useRef();
+
+    function sendEmail(e) {
+
+        e.preventDefault();
+
+        emailjs.sendForm('gmail', 'template_gaunrmaxx', form.current, 'G01cd27xw3PTY-r6j')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        e.target.reset();
+    }
+
   return (
     <>
 
             <div id='kontaktContent'>
                 <h1 id='title'>Kontakt</h1>
-                <p class='inhalt'>Bei Fragen, Anregungen oder Kritik wende dich gerne über unser Kontaktformular an uns.</p>
-                <p class='inhalt'><b>Schau gern vorher In unsere <a className='refer' to='/faq'>FAQs</a>, ob dein Anliegen dort schon beantwortet wird.</b></p>
-                <p class='inhalt'>Bitte beachte, dass die mit einem * gekennzeichneten Felder ausgefüllt sein müssen.</p>
+                <p className='inhalt'>Bei Fragen, Anregungen oder Kritik wende dich gerne über unser Kontaktformular an uns.</p>
+                <p className='inhalt'><b>Bitte beachte, dass die mit einem * gekennzeichneten Felder ausgefüllt sein müssen.</b></p>
             
-                <form id='contactForm' action='' method='POST'>
+                <form id='contactForm' ref={form} onSubmit={sendEmail}>
                     <input type='email' name='email' placeholder='E-Mail*' required />
                     <br></br>
                     <input type='text' name='name' placeholder='Name*' required />
@@ -19,7 +37,7 @@ const Kontakt = () => {
                     <br></br>
                     <input type='text' name='kartennummer' placeholder='Kartennummer' />
                     <br></br>
-                    <select id='empfaenger' name='Empfänger' placeholder='Empfänger*' required>
+                    <select id='empfaenger' name='empfaenger' placeholder='Empfänger*' required>
                         <option value='Ticketshop'>Ticketshop</option>
                         <option value='Firmen-Service'>Firmen-Service</option>
                         <option value='Marketing'>Marketing</option>
@@ -31,7 +49,7 @@ const Kontakt = () => {
                     
                     <input type='text' name='betreff' placeholder='Betreff*' min='10' required />
                     <br></br>
-                    <textarea id='betreff' name='betreff' placeholder='Dein Anliegen*' min='20' required></textarea>
+                    <textarea id='anliegen' name='anliegen' placeholder='Dein Anliegen*' min='20' max='1000' required></textarea>
 
                     <br></br>
 

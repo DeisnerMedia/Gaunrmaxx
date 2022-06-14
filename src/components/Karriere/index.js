@@ -29,7 +29,6 @@ const Karriere = ({
                       dark2
     }) => {
 
-
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
