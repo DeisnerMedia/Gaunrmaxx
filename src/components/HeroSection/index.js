@@ -16,22 +16,7 @@ const HeroSection = () => {
   return (
     <>
         <div id='home'>
-
             <div className="HeroContent">
-                <div className='BtnWrapper'>
-                        <Button2 to='/trailer'
-                            onMouseEnter={onHover}
-                            onMouseLeave={onHover}
-                            smooth='true'
-                            duration={500}
-                            spy='true'
-                            exact='true'
-                            offset={-80}
-                        >
-                        {hover ? <FaYinYang id='yinYang' /> : <FaPlay id='faPlay' />} Trailer
-                        </Button2>
-                </div>
-
                 <Movies />
             </div>
                 
