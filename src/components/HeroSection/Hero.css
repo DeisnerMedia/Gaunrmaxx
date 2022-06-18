@@ -1,20 +1,7 @@
 #home {
     background: rgb(16,16,16);
     background: linear-gradient(180deg, rgba(16,16,16,1) 0%, rgba(80,26,26,1) 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 30px;
+    padding: 100px 0 0 30px;
     height: 1000px;
-    position: relative;
     z-index: 1;
-}
-
-#home:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }

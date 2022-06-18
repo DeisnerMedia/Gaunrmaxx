@@ -14,7 +14,7 @@
     gap: 30px;
     font-size: 17px;
     width: calc(100% - 2 * var(--movie-padding));
-    transform: translateX(-5%);
+    /*transform: translateX(-5%);*/
 }
 
 .movie {
