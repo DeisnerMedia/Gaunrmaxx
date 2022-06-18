@@ -22,6 +22,7 @@ import Newsletter from './pages/FooterNav/Newsletter';
 import Karriere from './pages/FooterNav/Karriere';
 
 import LoginSystem from './pages/Anmelden';
+import RegistrierSystem from './pages/Registrieren';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route exact path='/zeiten' element={<Oeffnungszeiten />} />
 
           <Route exact path='/signin' element={<LoginSystem />} />
+          <Route exact path='/signup' element={<RegistrierSystem />} />
 
           <Route exact path='/kontakt' element={<Kontakt />} />
           <Route exact path='/datenschutz' element={<Datenschutz />} />

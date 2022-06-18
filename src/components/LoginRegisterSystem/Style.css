@@ -33,7 +33,6 @@ input {
 }
 
 .login-register-system__register {
-    display: none;
     text-align: center;
 }
 
@@ -50,4 +49,19 @@ input {
 #anmelden:hover,
 #registrieren:hover {
     background-color: rgb(4, 113, 238);
+}
+
+#referToOther {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+#refer {
+    text-decoration: none;
+}
+
+#refer:hover {
+    text-decoration: underline;
+    color: #b2b2b2;
 }

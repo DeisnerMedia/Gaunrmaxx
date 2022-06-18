@@ -1,10 +1,23 @@
 import './Kontakt.css';
 import emailjs from 'emailjs-com';
 import React, {useRef} from 'react';
+import {FaCheck} from "react-icons/fa";
 
 function Kontakt() {
 
     const form = useRef();
+
+    function showNotification(e) {
+
+        e.preventDefault();
+        alert("Test");
+
+        const notification = document.querySelector(".notification"),
+            progress = document.querySelector(".progress");
+
+        notification.classList.add("active");
+        progress.classList.add("active");
+    }
 
     function sendEmail(e) {
 
@@ -23,7 +36,20 @@ function Kontakt() {
   return (
     <>
 
+
             <div id='kontaktContent'>
+
+                <div className="notification">
+                    <div className="notification-content">
+                        <div className='message-success'>
+                            <FaCheck className='checkMark'/>
+                            <span>Nachricht erfolgreich abgesendet!</span>
+                        </div>
+                    </div>
+
+                    <div className='progress'></div>
+                </div>
+
                 <h1 id='title'>Kontakt</h1>
                 <p className='inhalt'>Bei Fragen, Anregungen oder Kritik wende dich gerne über unser Kontaktformular an uns.</p>
                 <p className='inhalt'><b>Bitte beachte, dass die mit einem * gekennzeichneten Felder ausgefüllt sein müssen.</b></p>
@@ -53,7 +79,7 @@ function Kontakt() {
 
                     <br></br>
 
-                    <button id='submit' type='submit'>Absenden</button>
+                    <button id='submit' type='submit' onSubmit={showNotification}>Absenden</button>
                 </form>
             </div>
 
