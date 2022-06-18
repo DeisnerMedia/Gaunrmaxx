@@ -1,7 +1,15 @@
 import React from 'react';
 import './Style.css';
 
-const Anmelden = () => {
+function Anmelden() {
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const data = new FormData(event.target);
+        const username = data.get('username');
+        const password = data.get('password');
+    }
+
     return (
         <>
             <div className="login-register-system">
@@ -13,8 +21,8 @@ const Anmelden = () => {
                         <input type="password" placeholder="Passwort" />
                         <br></br>
                         <button id="anmelden" type="submit">Anmelden</button>
-                        <p id='referToOther'><a id='refer' href='/signup'>Noch nicht Registriert?</a></p>
                     </form>
+                    <p id='referToOther'><a id='refer' href='/signup'>Noch nicht Registriert?</a></p>
                 </div>
             </div>
         </>
