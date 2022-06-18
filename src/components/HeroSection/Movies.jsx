@@ -1,6 +1,6 @@
 import {React, useEffect, useState, useRef} from 'react';
 import axios from 'axios';
-import Movie from '../Movie/Movie';
+import Movie from './Movie';
 import Youtube from 'react-youtube';
 import './Movies.css';
 
@@ -62,7 +62,7 @@ function Movies() {
         fetchMovie(movie.id)
         setPlaying(false)
         setMovie(movie)
-        window.scrollTo(0, 0)
+        // window.scrollTo(0, 0)
     }
 
     const renderMovies = () => (
@@ -77,13 +77,13 @@ function Movies() {
 
   return (
     <>
-        <h1 className='contentTitle'>Top Empfehlungen</h1>
+        <h1 className='contentTitle2'>Top Empfehlungen</h1>
         
-        <div className='movies'>
+        <div className='movies2'>
             <div className='handle left-handle'></div>
                 {movies.length ?
                 <div>
-                    <div className={"center-max-size container"}>
+                    <div className={"center-max-size container2"}>
                         {renderMovies()}
                     </div>
                 </div>

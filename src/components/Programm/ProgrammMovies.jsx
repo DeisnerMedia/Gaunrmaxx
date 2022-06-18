@@ -59,7 +59,6 @@ function ProgrammMovies() {
         fetchMovie(movie.id)
         setPlaying(false)
         setMovie(movie)
-        window.scrollTo(0, 0)
     }
 
     const renderMovies = () => (
@@ -81,8 +80,7 @@ function ProgrammMovies() {
                     {movies.length ?
                     <div>
                         <div className={"center-max-size container"}>
-                            {renderMovies()}
-                            <MovieTime />
+                            {renderMovies()} + <MovieTime />
                         </div>
                     </div>
                     : 'Tut uns leid, es wurden keine Filme gefunden'}

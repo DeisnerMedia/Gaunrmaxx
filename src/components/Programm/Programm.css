@@ -1,21 +1,17 @@
-.ProgrammContent {
+.movie-position {
+    padding-top: 120px;
+    position: relative;
     background: rgb(16,16,16);
     background: linear-gradient(180deg, rgba(16,16,16,1) 0%, rgba(80,26,26,1) 100%);
-}
-
-.movie-position {
-    position: relative;
-    top: 120px;
-    padding-bottom: 150px;
 }
 
 .contentTitle {
     text-align: center;
     font-size: 45px;
+    margin-bottom: 20px;
 }
 
 .container {
-    padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
