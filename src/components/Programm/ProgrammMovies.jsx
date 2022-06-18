@@ -80,7 +80,8 @@ function ProgrammMovies() {
                     {movies.length ?
                     <div>
                         <div className={"center-max-size container"}>
-                            {renderMovies()} + <MovieTime />
+                            {renderMovies()}
+                            <MovieTime />
                         </div>
                     </div>
                     : 'Tut uns leid, es wurden keine Filme gefunden'}

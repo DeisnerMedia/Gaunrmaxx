@@ -49,6 +49,7 @@
 .movie {
     width: 1000px;
     left: 0;
+    margin-bottom: 50px;
     display: flex;
 }
 
