@@ -15,10 +15,10 @@ function Anmelden() {
             <div className="login-register-system">
                 <div className="login-register-system__login">
                     <h2 className="title">Anmelden</h2>
-                    <form action="">
-                        <input type="text" placeholder="Benutzername" />
+                    <form action="Anmelden.php" method="post">
+                        <input type="text" name="benutzername" placeholder="Benutzername" required/>
                         <br></br>
-                        <input type="password" placeholder="Passwort" />
+                        <input type="password" name="pw" placeholder="Passwort" required/>
                         <br></br>
                         <button id="anmelden" type="submit">Anmelden</button>
                     </form>
