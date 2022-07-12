@@ -8,7 +8,7 @@ import Home from './pages';
 import Programm from './pages/Programm';
 import Preise from './pages/Preise'
 import Snacks from './pages/Snacks';
-import Oeffnungszeiten from './pages/Zeiten';
+import Öffnungszeiten from './pages/Zeiten';
 
 // Footer Navigation
 
@@ -33,7 +33,7 @@ function App() {
           <Route exact path='/programm' element={<Programm />} />
           <Route exact path='/preise' element={<Preise />} />
           <Route exact path='/snacks' element={<Snacks />} />
-          <Route exact path='/zeiten' element={<Oeffnungszeiten />} />
+          <Route exact path='/öffnungszeiten' element={<Öffnungszeiten />} />
 
           <Route exact path='/signin' element={<LoginSystem />} />
           <Route exact path='/signup' element={<RegistrierSystem />} />
