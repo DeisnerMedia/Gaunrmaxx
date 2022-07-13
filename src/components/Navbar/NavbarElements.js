@@ -36,7 +36,7 @@ export const NavLogo = styled(LinkR)`
     display: flex;
     margin-left: 24px;
     margin-top: 20px;
-    height: 40px;
+    height: 30px;
 
     &:hover {
         opacity: 0.9;
