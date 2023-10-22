@@ -1,1 +1,1 @@
-Cinema Website Project
+<span id="description">Cinema Website Project</span>
