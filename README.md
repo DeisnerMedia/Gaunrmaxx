@@ -6,4 +6,4 @@ A small Cinema Project, using The Movie Database to receive current Movies for C
 
 [The Movie Database](https://www.themoviedb.org/?language=de)
 
-<a id="demo" href="https://gaunrmaxx.deisnermedia.com">Demo</a>
+<a id="demo" href="http://gaunrmaxx.deisnermedia.com">Demo</a>
